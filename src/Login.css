@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.login {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto auto;
+  padding: 40px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 330px;
+  border-bottom: 10px solid green;
+  box-shadow: 0 0 20px #9ecaed;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+input:focus {
+  border-color: green;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #7053c4;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 16px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 25px;
+  transition: all 0.5s;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 12px;
+  right: -10px;
+  transition: 0.5s;
+  font-size: 25px;
+}
+
+button:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+  background-color: #7c60ce;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.loginLink {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 5px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.loginLink:hover {
+  text-decoration: underline;
+  color: rgb(201, 241, 201);
+  transform: scale(1.02);
+  font-weight: bold;
+}

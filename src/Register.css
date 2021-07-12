@@ -1,0 +1,86 @@
+.register {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.20);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 550px;
+    border-top: 10px solid green;
+    box-shadow: 0 0 20px #9ecaed;
+
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px 0px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 2px #7053c4;
+    color: white
+}
+
+input:focus {
+    width: 100%;
+    transition: 0.5s;
+    color: white;
+}
+
+::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #f7f3f3;
+    opacity: 0.7;
+}
+
+
+.login_register {
+    cursor: pointer;
+    margin-top: 6px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+.login_register:hover {
+    text-decoration: underline;
+    color: rgb(201, 241, 201);
+    transition: all 0.5s;
+    font-weight: bold;
+
+}
+
+.login_register,
+p {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.registerQuestion {
+    margin-top: 20px;
+}
